@@ -8,5 +8,7 @@ else:
     print("Nao pode tirar")
 
 status = "Pode tirar a carta" if idade > 18 else "Nao pode";
-print(status)
+print(status);
 
+verificao = 10 if idade >17 else 20;
+print(verificao);
